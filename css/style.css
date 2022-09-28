@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding: 0px;
+    
+} 
+body{
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+h1{
+    color: #66BFBF;
+    font-size: 90px;
+    padding-top: 100px;
+    font-family:'Sacramento', cursive;
+}
+h2{
+    color: #66BFBF;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    font-weight: normal;
+}
+h3{
+    color:  #11999E;
+    
+}
+.container{
+    background-color: #e4f9f9;  
+    position: relative;  
+} 
+.top-cld{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cld{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.profile{
+    margin-top: 30px;
+}
+.hori{
+    border-style: dotted;
+    width: 3%;
+    border-width: 5px;
+    border-bottom: none;
+    height: 1px;
+    color: #91a5a5;
+    margin: 80px auto;
+}
+.web{
+    height: 150px;
+    float: left;
+    margin-right: 30px;
+    width: 150px;
+    border-radius: 50%;
+}
+.edit{
+    float: right;
+    margin-left: 30px;
+    margin-top: -11px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.skill-row{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.get-in{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.meet-me{
+    margin-bottom: 30px;
+}
+.fotter-para{
+    line-height: 2;
+    margin-bottom: 50px;
+}
+.btn{
+    width: 20%;
+    padding: 15px;
+    border-radius: 9px;
+    margin: auto;
+    background-color: #11999E;
+    color: white;
+    margin-bottom: 50px;
+}
+.btn:hover{
+    background-color: #30e3cb;
+}
+
+.bottom-container{
+    margin-top: 70px;
+    width: 100%;
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+    align-items: center;
+}
+a{
+    color:  black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 20px;
+}
+a:hover{
+    color: white;
+}
+.footer-link{
+    align-items: center;
+    margin-top: 50px;
+}
+/* .footer-cont{
+    margin-left: 50%;
+} */
+/* .down{
+    float: right;
+    margin-top: 80px;
+    margin-right: 50%;
+} */
+p.down {
+   font-size: 0.75rem;
+   padding: 30px 0px 0px 0px;
+}
